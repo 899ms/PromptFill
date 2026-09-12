@@ -1,48 +1,79 @@
+import { ArrowUpRight } from 'lucide-react';
 import { COMMUNITY_TEMPLATE_CREDITS } from '../data/communityCredits';
 import { openExternalLink } from '../utils/platform';
 
-export const CommunityTemplateCredits = ({ language }) => (
-  <div className="text-left">
-    <p className="mb-2">
-      {language === 'cn'
-        ? '感谢 freestylefly / 苍何与 YouMind 整理案例，也感谢以下创作者分享作品与灵感。以下模板由 Prompt Fill 改编为双语填空形式；标注「图像反推改编」的条目来自 YouMind 的图像描述，并非创作者的原始提示词。'
-        : 'Thanks to freestylefly / Canghe and YouMind for curating these cases, and to the creators below for sharing their work and ideas. Prompt Fill adapted them into bilingual fill-in templates. Entries marked “Image-based adaptation” use YouMind’s image descriptions, not the creators’ original prompts.'}
-    </p>
-    <a
-      href="https://github.com/freestylefly/awesome-gpt-image-2"
-      onClick={(event) => { event.preventDefault(); openExternalLink(event.currentTarget.href); }}
-      className="text-orange-600 underline underline-offset-2"
-    >awesome-gpt-image-2</a>
-    <a
-      href="https://youmind.com/zh-CN/gpt-image-2-5-prompts"
-      onClick={(event) => { event.preventDefault(); openExternalLink(event.currentTarget.href); }}
-      className="ml-3 text-orange-600 underline underline-offset-2"
-    >YouMind · GPT Image 2.5</a>
-    <ul className="mt-2 max-h-36 overflow-y-auto space-y-2 pr-2">
-      {COMMUNITY_TEMPLATE_CREDITS.map((credit) => (
-        <li key={credit.caseUrl}>
-          <span>{credit.name[language === 'cn' ? 'cn' : 'en']} · {credit.author}</span>
-          {credit.sourcePromptType === 'image-reconstruction' && (
-            <span className="ml-2 text-xs opacity-70">
-              {language === 'cn' ? '图像反推改编' : 'Image-based adaptation'}
-            </span>
-          )}
-          <span className="ml-2 inline-flex gap-2">
-            {credit.originalUrl && (
-              <a href={credit.originalUrl}
-                onClick={(event) => { event.preventDefault(); openExternalLink(event.currentTarget.href); }}
-                className="text-orange-600 underline underline-offset-2">
-                {language === 'cn' ? '原帖' : 'Original'}
-              </a>
-            )}
-            <a href={credit.caseUrl}
-              onClick={(event) => { event.preventDefault(); openExternalLink(event.currentTarget.href); }}
-              className="text-orange-600 underline underline-offset-2">
-              {language === 'cn' ? '案例' : 'Case'}
-            </a>
+const openCreditLink = (event) => {
+  event.preventDefault();
+  openExternalLink(event.currentTarget.href);
+};
+
+export const CommunityTemplateCredits = ({ language, isDarkMode }) => {
+  const cn = language === 'cn';
+  return (
+    <section className="community-credits text-left" data-theme={isDarkMode ? 'dark' : 'light'}>
+      <p className="leading-relaxed">
+        {cn
+          ? '感谢 freestylefly / 苍何与 YouMind 整理案例，也感谢每一位创作者分享作品与灵感。Prompt Fill 将这些创意改编为双语填空模板。'
+          : 'Thanks to freestylefly / Canghe, YouMind and every creator for sharing their work and ideas. Prompt Fill adapted these ideas into bilingual fill-in templates.'}
+      </p>
+      <div className="mt-3 flex flex-wrap gap-2">
+        <a className="community-credits-source" href="https://github.com/freestylefly/awesome-gpt-image-2" onClick={openCreditLink}>
+          awesome-gpt-image-2 <ArrowUpRight size={13} aria-hidden="true" />
+        </a>
+        <a className="community-credits-source" href="https://youmind.com/zh-CN/gpt-image-2-5-prompts" onClick={openCreditLink}>
+          YouMind <ArrowUpRight size={13} aria-hidden="true" />
+        </a>
+      </div>
+
+      <div className="community-credits-panel mt-4 overflow-hidden rounded-2xl border">
+        <div className="community-credits-header flex items-center justify-between gap-3 px-4 py-3">
+          <h4 className="community-credits-title text-xs font-semibold">{cn ? '案例与创作者' : 'Cases & creators'}</h4>
+          <span className="text-[11px] tabular-nums">
+            {COMMUNITY_TEMPLATE_CREDITS.length} {cn ? '个案例' : 'cases'}
           </span>
-        </li>
-      ))}
-    </ul>
-  </div>
-);
+        </div>
+        <div
+          className="community-credits-scroll"
+          role="region"
+          aria-label={cn ? '案例与创作者列表，可滚动浏览' : 'Scrollable list of cases and creators'}
+          tabIndex={0}
+        >
+          <ul className="m-0 list-none px-3">
+            {COMMUNITY_TEMPLATE_CREDITS.map((credit) => (
+              <li key={credit.caseUrl} className="community-credits-row py-3">
+                <p className="community-credits-title break-words text-[13px] font-medium leading-relaxed">
+                  {credit.name[cn ? 'cn' : 'en']}
+                </p>
+                <div className="mt-1 flex flex-wrap items-center gap-x-2 gap-y-1 text-[11px] leading-relaxed">
+                  <span className="break-words [overflow-wrap:anywhere]">{credit.author}</span>
+                  {credit.sourcePromptType === 'image-reconstruction' && (
+                    <span className="community-credits-badge rounded-md px-1.5 py-0.5 text-[10px]">
+                      {cn ? '图像反推改编' : 'Image-based adaptation'}
+                    </span>
+                  )}
+                </div>
+                <div className="mt-1.5 flex flex-wrap gap-1">
+                  {credit.originalUrl && (
+                    <a className="community-credits-link" href={credit.originalUrl} onClick={openCreditLink}
+                      aria-label={`${credit.name[cn ? 'cn' : 'en']} · ${cn ? '查看原帖' : 'View original post'}`}>
+                      {cn ? '原帖' : 'Original'} <ArrowUpRight size={12} aria-hidden="true" />
+                    </a>
+                  )}
+                  <a className="community-credits-link" href={credit.caseUrl} onClick={openCreditLink}
+                    aria-label={`${credit.name[cn ? 'cn' : 'en']} · ${cn ? '查看案例' : 'View case'}`}>
+                    {cn ? '查看案例' : 'View case'} <ArrowUpRight size={12} aria-hidden="true" />
+                  </a>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+      <p className="mt-2.5 text-[11px] leading-relaxed">
+        {cn
+          ? '「图像反推改编」来自 YouMind 的图像描述，并非创作者的原始提示词。'
+          : '“Image-based adaptation” uses YouMind’s image description, not the creator’s original prompt.'}
+      </p>
+    </section>
+  );
+};

@@ -1,3 +1,4 @@
+import { CreditsModal } from './modals/CreditsModal';
 import { CommunityTemplateCredits } from './CommunityTemplateCredits';
 import React, { useState } from 'react';
 import {
@@ -997,32 +998,8 @@ export const SettingsView = ({
         </div>
       )}
 
-      {/* Credits Popover */}
       {showCredits && (
-        <div 
-          className="fixed inset-0 z-[200] flex items-center justify-center bg-black/20 backdrop-blur-sm"
-          onClick={() => setShowCredits(false)}
-        >
-          <div 
-            className={`p-10 rounded-[40px] shadow-2xl border relative animate-in zoom-in-95 duration-300 max-w-xl ${isDarkMode ? 'bg-[#242120] border-white/5 shadow-black/50' : 'bg-white border-white/60'}`}
-            onClick={e => e.stopPropagation()}
-          >
-            <button 
-              onClick={() => setShowCredits(false)}
-              className="absolute top-6 right-6 p-2 text-gray-400 hover:text-orange-500 transition-colors"
-            >
-              <X size={24} />
-            </button>
-            
-            <div className="flex flex-col items-center text-center">
-              <div className={`w-16 h-16 rounded-full flex items-center justify-center mb-6 ${isDarkMode ? 'bg-orange-500/10' : 'bg-orange-50'}`}>
-                <Heart size={32} className="text-orange-500 fill-orange-500" />
-              </div>
-              
-              <h3 className={`text-2xl font-black mb-6 tracking-tight ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>
-                {language === 'cn' ? '鸣谢与致敬' : 'Credits & Acknowledgments'}
-              </h3>
-              
+        <CreditsModal language={language} isDarkMode={isDarkMode} onClose={() => setShowCredits(false)}>
               <div className={`space-y-6 text-sm leading-relaxed ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>
                 <p className="font-bold text-orange-600">
                   {language === 'cn' 
@@ -1048,7 +1025,7 @@ export const SettingsView = ({
                   {language === 'cn' ? '，以及所有提供建议、Bug 发现及提交 Issue 的小伙伴们。' : ', and all contributors who provided suggestions and bug reports.'}
                 </p>
                 
-                <CommunityTemplateCredits language={language} />
+                <CommunityTemplateCredits language={language} isDarkMode={isDarkMode} />
 
                 <div className={`h-px w-12 mx-auto my-6 ${isDarkMode ? 'bg-white/5' : 'bg-gray-100'}`} />
                 
@@ -1059,9 +1036,7 @@ export const SettingsView = ({
                   <Heart size={12} className="inline ml-1 text-red-500 fill-red-500" />
                 </p>
               </div>
-            </div>
-          </div>
-        </div>
+        </CreditsModal>
       )}
     </div>
   );
