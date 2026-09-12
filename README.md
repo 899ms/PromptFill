@@ -11,8 +11,8 @@
 A **structured prompt generation tool** designed specifically for AI painting (GPT, Midjourney, Nano Banana, etc.). Help users quickly build, manage, and iterate complex prompts through a visual "fill-in-the-blank" interaction.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Version](https://img.shields.io/badge/Version-1.1.4-orange.svg)
-![Data](https://img.shields.io/badge/Data-1.2.1-green.svg)
+![Version](https://img.shields.io/badge/Version-1.1.5-orange.svg)
+![Data](https://img.shields.io/badge/Data-1.2.2-green.svg)
 ![React](https://img.shields.io/badge/React-18.x-61DAFB.svg)
 ![Vite](https://img.shields.io/badge/Vite-5.x-646CFF.svg)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC.svg)
@@ -22,9 +22,11 @@ A **structured prompt generation tool** designed specifically for AI painting (G
 
 ## 📝 Foreword
 
-Prompt Fill has officially reached **v1.1.4**. The original intention of this project is to solve the problem of hard-to-remember, hard-to-manage, and tedious modification of prompts in the AI painting process. By structuring prompts, creation becomes as simple as "filling in the blanks".
+Prompt Fill has officially reached **v1.1.5**. The original intention of this project is to solve the problem of hard-to-remember, hard-to-manage, and tedious modification of prompts in the AI painting process. By structuring prompts, creation becomes as simple as "filling in the blanks".
 
 ### 🌟 Progress & Core Features
+
+* **244 bilingual presets**: 160 new community adaptations, including 100 GPT Image 2.5 templates with four key variables each. Creator and source credits are included.
 
 *   **✅ Variable Autocomplete**: Type `/` or `{` to open a dual-column autocomplete panel — select variables on the left, options on the right, with full keyboard navigation.
 *   **✅ Inline Variable Syntax**: `{{key: value}}` lets you write and preview a variable's value directly in the template, with real-time highlighting.
@@ -195,6 +197,12 @@ Copy the final prompt or save as a long image. JSON Import/Export is available f
 
 ## 📝 Change Log
 
+### Version 1.1.5 (2026-09-12) · Data 1.2.2
+- Added 160 community adaptations; the library now contains 244 bilingual presets.
+- Includes 100 GPT Image 2.5 templates with four variables each and concise option banks.
+- Added model selection support and creator/source credits, distinguishing image-derived descriptions.
+- Thanks to [freestylefly / Canghe](https://github.com/freestylefly/awesome-gpt-image-2), [YouMind](https://youmind.com/zh-CN/gpt-image-2-5-prompts) and the original creators.
+
 ### Version 1.1.4 (2026-08-21)
 - Visual Memory templates: Mid-century Surreal Editorial Cover, Visual Memory Editorial Page, Exhibition Ticket, Vinyl Album.
 - Discovery masonry now lazy-loads images with locked placeholders to reduce first-load jank.
@@ -320,8 +328,8 @@ MIT License / [MIT 许可证](LICENSE).
 一个专为 AI 绘画（GPT、Nano Banana 等）设计的**结构化提示词生成工具**。通过可视化的"填空"交互方式，帮助用户快速构建、管理和迭代复杂的 Prompt。
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Version](https://img.shields.io/badge/Version-1.1.4-orange.svg)
-![Data](https://img.shields.io/badge/Data-1.2.1-green.svg)
+![Version](https://img.shields.io/badge/Version-1.1.5-orange.svg)
+![Data](https://img.shields.io/badge/Data-1.2.2-green.svg)
 ![React](https://img.shields.io/badge/React-18.x-61DAFB.svg)
 ![Vite](https://img.shields.io/badge/Vite-5.x-646CFF.svg)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC.svg)
@@ -331,9 +339,11 @@ MIT License / [MIT 许可证](LICENSE).
 
 ## 📝 写在前面
 
-Prompt Fill 正式发布 **v1.1.4** 版本。本项目初衷是解决 AI 绘画过程中提示词难记忆、难管理、修改繁琐的问题。通过将 Prompt 结构化，让创作变得像"填空"一样简单。
+Prompt Fill 正式发布 **v1.1.5** 版本。本项目初衷是解决 AI 绘画过程中提示词难记忆、难管理、修改繁琐的问题。通过将 Prompt 结构化，让创作变得像"填空"一样简单。
 
 ### 🌟 目前进度与核心功能
+
+* **244 套双语预设**：本次新增 160 套社区改编模版，其中 100 套 GPT Image 2.5 模版各含 4 个关键填空，完整保留创作者与来源鸣谢。
 
 *   **✅ 变量智能补全**：编辑时输入 `/` 或 `{` 即可弹出双栏补全面板，左选变量、右选选项，支持键盘全程导航。
 *   **✅ 内联变量语法**：支持 `{{key: value}}` 直接在模版中写入当前值，实时高亮展示。
@@ -503,6 +513,12 @@ Prompt Fill 正式发布 **v1.1.4** 版本。本项目初衷是解决 AI 绘画�
 ---
 
 ## 📝 更新日志
+
+### Version 1.1.5 (2026-09-12) · Data 1.2.2
+- 新增 160 套社区改编模版，预设总数达到 244 套，支持中英文填空。
+- 包含 100 套 GPT Image 2.5 模版，每套 4 个关键变量，配套精简词库。
+- 新增模型选项与作者来源鸣谢，明确区分图像反推描述。
+- 感谢 [freestylefly / 苍何](https://github.com/freestylefly/awesome-gpt-image-2)、[YouMind](https://youmind.com/zh-CN/gpt-image-2-5-prompts) 与原始创作者。
 
 ### Version 1.1.4 (2026-08-21)
 - 影像转译模版：Mid-century 超现实编辑封面、影像转译·编辑书页、影像转译·展览票、影像转译·黑胶专辑。

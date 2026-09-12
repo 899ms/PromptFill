@@ -1,3 +1,4 @@
+import { CommunityTemplateCredits } from './CommunityTemplateCredits';
 import React, { useState } from 'react';
 import { 
   Settings, Globe, Database, Download, Upload, 
@@ -55,6 +56,17 @@ export const MobileSettingsView = ({
   
   // 完善后的更新日志 (同步桌面端内容)
   const updateLogs = language === 'cn' ? [
+    {
+      "version": "V1.1.5",
+      "date": "2026-09-12",
+      "title": "244 套模版 · 社区创意填空化",
+      "content": [
+        "新增 160 套社区改编模版，预设总数达到 244 套，支持中英文填空。",
+        "其中新增 100 套 GPT Image 2.5 模版，每套 4 个关键填空，配套精简词库与默认值。",
+        "补充作者、案例与原帖链接，在鸣谢中区分图像反推描述和公开提示词。",
+        "最佳匹配模型新增 GPT-image-2.5；感谢 freestylefly / 苍何、YouMind 与原作者。"
+      ]
+    },
     {
       version: 'V1.1.4',
       date: '2026-08-21',
@@ -256,6 +268,17 @@ export const MobileSettingsView = ({
       ]
     }
   ] : [
+    {
+      "version": "V1.1.5",
+      "date": "2026-09-12",
+      "title": "244 Templates · Community Ideas Made Editable",
+      "content": [
+        "Added 160 community adaptations, bringing the preset library to 244 bilingual fill-in templates.",
+        "Includes 100 GPT Image 2.5 templates with four key variables each, curated options and ready-to-use defaults.",
+        "Added creator, case and original-post links; credits distinguish image-derived descriptions from publicly shared prompts.",
+        "Added GPT-image-2.5 to model options. Thanks to freestylefly / Canghe, YouMind and the original creators."
+      ]
+    },
     {
       version: 'V1.1.4',
       date: '2026-08-21',
@@ -758,6 +781,8 @@ export const MobileSettingsView = ({
                   {language === 'cn' ? '及所有提供建议、Bug 发现的小伙伴。' : '& all community contributors.'}
                 </p>
                 
+                <CommunityTemplateCredits language={language} />
+
                 <div className={`h-px w-10 mx-auto my-4 ${isDarkMode ? 'bg-white/5' : 'bg-gray-100'}`} />
                 
                 <p className="italic">

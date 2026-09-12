@@ -15,6 +15,10 @@ export const INITIAL_BANKS = {
     label: { cn: "角色身份", en: "Role" },
     category: "character",
     options: [
+{
+  "cn": "现代地铁车厢",
+  "en": "a modern subway carriage"
+},
       { cn: "游戏与动漫概念美术设计大师", en: "Master of Game and Anime Concept Art" },
       { cn: "资深影视角色原画师", en: "Senior Film Character Concept Artist" },
       { cn: "赛博朋克风格设计师", en: "Cyberpunk Style Designer" },
@@ -26,6 +30,10 @@ export const INITIAL_BANKS = {
     label: { cn: "主体对象", en: "Subject" },
     category: "character",
     options: [
+{
+  "cn": "年轻男子",
+  "en": "young man"
+},
       { cn: "女性角色", en: "Female Character" },
       { cn: "男性角色", en: "Male Character" },
       { cn: "机甲少女", en: "Mecha Girl" },
@@ -39,6 +47,54 @@ export const INITIAL_BANKS = {
     label: { cn: "发型样式", en: "Hair Style" },
     category: "character",
     options: [
+{
+  "cn": "银白长发",
+  "en": "long silver-white hair"
+},
+{
+  "cn": "辫子",
+  "en": "braided hair"
+},
+{
+  "cn": "短棕发",
+  "en": "short brown hair"
+},
+{
+  "cn": "波浪状金发",
+  "en": "wavy blonde hair"
+},
+{
+  "cn": "丰盈的浅棕色长发",
+  "en": "long, voluminous curly light-brown hair"
+},
+{
+  "cn": "湿漉漉的深色卷发",
+  "en": "wet, curly dark hair"
+},
+{
+  "cn": "深色直发",
+  "en": "straight dark hair"
+},
+{
+  "cn": "丝绸柔顺发",
+  "en": "silk press"
+},
+{
+  "cn": "长长的微乱黑发",
+  "en": "long slightly messy dark hair"
+},
+{
+  "cn": "双马尾",
+  "en": "twin tails"
+},
+{
+  "cn": "柔和短波波头短发造型",
+  "en": "soft, short wavy bob haircut"
+},
+{
+  "cn": "长发",
+  "en": "long hair"
+},
       { cn: "短发，柔和凌乱的深色头发", en: "Short, softly tousled dark hair" },
       { cn: "深色波浪长发", en: "Dark wavy long hair" },
       { cn: "黑色直发，垂在肩上", en: "Black straight hair, falling over shoulders" },
@@ -156,6 +212,18 @@ export const INITIAL_BANKS = {
     label: { cn: "眼镜配饰", en: "Glasses" },
     category: "item",
     options: [
+{
+  "cn": "复古圆框眼镜",
+  "en": "Vintage round glasses"
+},
+{
+  "cn": "圆形蓝色反光太阳镜",
+  "en": "round blue reflective sunglasses"
+},
+{
+  "cn": "黑色方形眼镜",
+  "en": "black rectangular glasses"
+},
       { cn: "戴着有轻微镜面反射的眼镜", en: "wearing glasses with mild lens reflections" },
       { cn: "戴着时尚的太阳镜", en: "wearing stylish sunglasses" },
       { cn: "戴着黑框近视眼镜", en: "wearing black-rimmed glasses" },
@@ -166,6 +234,22 @@ export const INITIAL_BANKS = {
     label: { cn: "男性服饰", en: "Male Clothing" },
     category: "item",
     options: [
+{
+  "cn": "黑色T恤与白色长袖内搭",
+  "en": "a black T-shirt over a white long-sleeve shirt"
+},
+{
+  "cn": "天蓝色针织毛衣与米色工装裤",
+  "en": "a sky-blue knit sweater and beige cargo trousers"
+},
+{
+  "cn": "黑色西装外套内搭白色T恤",
+  "en": "a black blazer over a white t-shirt"
+},
+{
+  "cn": "深色纹理高领毛衣和牛仔裤",
+  "en": "a dark textured turtleneck sweater and jeans"
+},
       { cn: "剪裁合体的深蓝西装", en: "Tailored deep blue suit" },
       { cn: "复古棕色皮夹克", en: "Vintage brown leather jacket" },
       { cn: "战术背心与工装裤", en: "Tactical vest and cargo pants" },
@@ -178,6 +262,34 @@ export const INITIAL_BANKS = {
     label: { cn: "女性服饰", en: "Female Clothing" },
     category: "item",
     options: [
+{
+  "cn": "酒红色粗针织毛衣",
+  "en": "a burgundy chunky-knit sweater"
+},
+{
+  "cn": "红色长风衣",
+  "en": "a long red trench coat"
+},
+{
+  "cn": "短款棕色麂皮夹克",
+  "en": "cropped brown suede jacket"
+},
+{
+  "cn": "合身的黑色长袖短款上衣",
+  "en": "a fitted black long-sleeve crop top"
+},
+{
+  "cn": "淡紫色连衣裙",
+  "en": "pale lilac dress"
+},
+{
+  "cn": "超大号白色纽扣衬衫",
+  "en": "oversized white button-up shirt"
+},
+{
+  "cn": "简约、修身的白色长袖服装",
+  "en": "simple, form-fitting white long-sleeve outfit"
+},
       { cn: "炭灰色无袖连衣裙", en: "Charcoal grey sleeveless dress" },
       { cn: "丝绸吊带晚礼服", en: "Silk slip evening gown" },
       { cn: "机车皮衣与短裙", en: "Biker leather jacket and short skirt" },
@@ -191,6 +303,18 @@ export const INITIAL_BANKS = {
     label: { cn: "表情集", en: "Expressions" },
     category: "character",
     options: [
+{
+  "cn": "神情坚定",
+  "en": "a determined expression"
+},
+{
+  "cn": "快乐、自信的表情",
+  "en": "a joyful, confident expression"
+},
+{
+  "cn": "平静，略显疏离",
+  "en": "calm, slightly distant"
+},
       { cn: "疯狂、病娇、狂喜", en: "Crazy, Yandere, Ecstatic" },
       { cn: "羞涩、躲闪、红晕", en: "Shy, Evasive, Blushing" },
       { cn: "冷漠、鄙视、高傲", en: "Indifferent, Contemptuous, Proud" },
@@ -270,6 +394,10 @@ export const INITIAL_BANKS = {
     label: { cn: "随身包袋", en: "Bag Content" },
     category: "item",
     options: [
+{
+  "cn": "黑色皮革手袋",
+  "en": "a black leather handbag"
+},
       { cn: "日常通勤包或手拿包", en: "Daily commuter bag or clutch" },
       { cn: "战术腿包", en: "Tactical leg bag" },
       { cn: "可爱的毛绒背包", en: "Cute plush backpack" },
@@ -300,6 +428,7 @@ export const INITIAL_BANKS = {
     label: { cn: "城市/国家", en: "City/Country" },
     category: "location",
     options: [
+      { cn: "里约热内卢", en: "Rio de Janeiro" },
       { cn: "广州", en: "Guangzhou" },
       { cn: "上海", en: "Shanghai" },
       { cn: "北京", en: "Beijing" },
@@ -388,6 +517,10 @@ export const INITIAL_BANKS = {
     label: { cn: "渲染风格", en: "Render Style" },
     category: "visual",
     options: [
+{
+  "cn": "丝网印刷质感",
+  "en": "screen print texture"
+},
       { cn: "Octane Render 和 Cinema 4D", en: "Octane Render and Cinema 4D" },
       { cn: "乐高积木风格", en: "LEGO Block Style" },
       { cn: "Unreal Engine 5 写实光追", en: "Unreal Engine 5 Realistic Ray Tracing" },
@@ -405,6 +538,14 @@ export const INITIAL_BANKS = {
     label: { cn: "剧名", en: "Show Name" },
     category: "other",
     options: [
+{
+  "cn": "Bichon Shop",
+  "en": "Bichon Shop"
+},
+{
+  "cn": "Chronicle",
+  "en": "Chronicle"
+},
       { cn: "泰坦尼克号", en: "Titanic" },
       { cn: "龙猫", en: "My Neighbor Totoro" },
       { cn: "哈利·波特", en: "Harry Potter" },
@@ -417,6 +558,10 @@ export const INITIAL_BANKS = {
     label: { cn: "角色", en: "Character Name" },
     category: "character",
     options: [
+{
+  "cn": "孙悟空",
+  "en": "Sun Wukong"
+},
       { cn: "Jack and Rose", en: "Jack and Rose" },
       { cn: "龙猫", en: "Totoro" },
       { cn: "哈利·波特", en: "Harry Potter" },
@@ -443,6 +588,10 @@ export const INITIAL_BANKS = {
     label: { cn: "公司", en: "Company" },
     category: "location",
     options: [
+{
+  "cn": "NUBELLA",
+  "en": "NUBELLA"
+},
       { cn: "Apple", en: "Apple" },
       { cn: "任天堂（Nintendo）", en: "Nintendo" },
       { cn: "SONY", en: "SONY" },
@@ -453,6 +602,18 @@ export const INITIAL_BANKS = {
     label: { cn: "主色调", en: "Dominant Colors" },
     category: "visual",
     options: [
+{
+  "cn": "彩虹般的蓝色、光芒四射的红色、金黄色和柔和的白色",
+  "en": "iridescent blues, radiant reds, golden yellows, and soft whites"
+},
+{
+  "cn": "橙色",
+  "en": "orange"
+},
+{
+  "cn": "中国红、青蓝、鎏金",
+  "en": "Chinese red, cyan blue, and gilded gold"
+},
       { cn: "传统的京都红与古朴的墨黑色", en: "Traditional Kyoto red and antique ink black" },
       { cn: "地中海蓝与阳光金", en: "Mediterranean blue and sunny gold" },
       { cn: "鲜艳的仙人掌绿与深红色", en: "Vibrant cactus green and deep red" },
@@ -465,6 +626,30 @@ export const INITIAL_BANKS = {
     label: { cn: "背景色", en: "Background Color" },
     category: "visual",
     options: [
+{
+  "cn": "纯绿色背景",
+  "en": "a pure green background"
+},
+{
+  "cn": "纯白色背景",
+  "en": "A pure white background"
+},
+{
+  "cn": "干净的白色背景",
+  "en": "clean white background"
+},
+{
+  "cn": "暖芥末黄",
+  "en": "warm mustard yellow"
+},
+{
+  "cn": "纯净黑色背景",
+  "en": "Pure black background"
+},
+{
+  "cn": "白色背景",
+  "en": "white background"
+},
       { cn: "纯白", en: "Pure White" },
       { cn: "明亮的天空蓝", en: "Bright Sky Blue" },
       { cn: "阳光般的浅黄色", en: "Sunny Light Yellow" },
@@ -523,6 +708,10 @@ export const INITIAL_BANKS = {
     label: { cn: "九宫格镜头", en: "Lens Parameter" },
     category: "visual",
     options: [
+{
+  "cn": "85mm",
+  "en": "85mm"
+},
       { cn: "85mm, f/1.8", en: "85mm, f/1.8" },
       { cn: "85mm, f/2.0", en: "85mm, f/2.0" },
       { cn: "50mm, f/2.2", en: "50mm, f/2.2" },
@@ -646,6 +835,10 @@ export const INITIAL_BANKS = {
     label: { cn: "镜头类型", en: "Lens Type" },
     category: "visual",
     options: [
+{
+  "cn": "低角度广角镜头",
+  "en": "low-angle wide-angle shot"
+},
       { cn: "标准镜头", en: "Standard Lens" },
       { cn: "广角镜头", en: "Wide-angle Lens" },
       { cn: "长焦镜头", en: "Telephoto Lens" },
@@ -715,6 +908,10 @@ export const INITIAL_BANKS = {
     label: { cn: "绘画风格", en: "Drawing Style" },
     category: "visual",
     options: [
+{
+  "cn": "水粉与蜡笔混合笔触",
+  "en": "mixed gouache and wax-crayon strokes"
+},
       { cn: "手绘漫画风格", en: "Hand-drawn Manga Style" },
       { cn: "Disney手绘草稿风格", en: "Disney Hand-drawn Sketch Style" },
       { cn: "吉卜力手绘风格", en: "Ghibli Hand-drawn Style" },
@@ -749,6 +946,14 @@ export const INITIAL_BANKS = {
     label: { cn: "怪兽元素", en: "Monster Element" },
     category: "character",
     options: [
+{
+  "cn": "穷奇",
+  "en": "Qiongqi"
+},
+{
+  "cn": "巨龙",
+  "en": "dragon"
+},
       { cn: "巨大的粉色和蓝色渐变卡通怪兽", en: "Giant pink and blue gradient cartoon monster" },
       { cn: "机械机器人怪兽", en: "Mecha robot monster" },
       { cn: "神话传说中的龙", en: "Legendary dragon" },
@@ -811,6 +1016,26 @@ export const INITIAL_BANKS = {
     label: { cn: "旅游地点", en: "Travel Location" },
     category: "location",
     options: [
+{
+  "cn": "卡帕多奇亚石谷",
+  "en": "Cappadocia rock valleys"
+},
+{
+  "cn": "城市咖啡馆",
+  "en": "an urban café"
+},
+{
+  "cn": "主题乐园商业街",
+  "en": "a theme-park shopping street"
+},
+{
+  "cn": "热带海岛",
+  "en": "a tropical island"
+},
+{
+  "cn": "阳光山城",
+  "en": "a sunny hillside town"
+},
       { cn: "西藏拉萨布达拉宫", en: "Potala Palace, Lhasa, Tibet" },
       { cn: "湖南林中小寨", en: "Forest Village in Hunan" },
       { cn: "东北雪乡", en: "Snow Village in Northeast China" },
@@ -900,6 +1125,10 @@ export const INITIAL_BANKS = {
     label: { cn: "水果", en: "Fruit" },
     category: "item",
     options: [
+{
+  "cn": "芒果",
+  "en": "mango"
+},
       { cn: "猕猴桃", en: "Kiwi" },
       { cn: "橙子", en: "Orange" },
       { cn: "苹果", en: "Apple" },
@@ -925,6 +1154,10 @@ export const INITIAL_BANKS = {
     label: { cn: "珠宝样式", en: "Jewelry Style" },
     category: "item",
     options: [
+{
+  "cn": "极简珠宝",
+  "en": "minimal jewelry"
+},
       { cn: "精美的金色背链", en: "Fine gold back necklace" },
       { cn: "简约银色链条", en: "Minimalist silver chain" },
       { cn: "珍珠身体链", en: "Pearl body chain" },
@@ -979,6 +1212,10 @@ export const INITIAL_BANKS = {
     label: { cn: "时尚穿搭拆解", en: "Fashion Deconstruction" },
     category: "item",
     options: [
+{
+  "cn": "围巾、手袋、衬衫和半裙",
+  "en": "a scarf, handbag, shirt and skirt"
+},
       { cn: "风衣拆解：翻领、肩章、腰带、袖口束带、主衣身", en: "Trench coat: Lapel, epaulets, belt, cuffs, main body" },
       { cn: "西装拆解：驳领、口袋、内衬、袖扣、垫肩", en: "Suit: Lapel, pockets, lining, cufflinks, shoulder pads" },
       { cn: "运动鞋拆解：鞋底、鞋面、鞋带、气垫、鞋垫", en: "Sneakers: Sole, upper, laces, air cushion, insole" },
@@ -1000,6 +1237,10 @@ export const INITIAL_BANKS = {
     label: { cn: "数码生活拆解", en: "Digital Deconstruction" },
     category: "item",
     options: [
+{
+  "cn": "银色笔记本电脑",
+  "en": "a silver laptop"
+},
       { cn: "手机拆解：手机壳、屏幕内容、摄像头模组、主板组件", en: "Phone: Case, screen content, camera module, motherboard" },
       { cn: "相机拆解：镜头组、机身、闪光灯、存储卡、肩带", en: "Camera: Lens set, body, flash, memory card, strap" },
       { cn: "影音：无线耳机、智能手表、平板电脑、蓝牙音箱", en: "Audio: Wireless headphones, smartwatch, tablet, speaker" },
@@ -1020,6 +1261,14 @@ export const INITIAL_BANKS = {
     label: { cn: "伴随生物", en: "Creatures" },
     category: "character",
     options: [
+{
+  "cn": "大王具足虫",
+  "en": "a giant isopod"
+},
+{
+  "cn": "大口黑鲈",
+  "en": "a largemouth bass"
+},
       { cn: "许多银色小鱼", en: "many small silver fish" },
       { cn: "发光的水母", en: "glowing jellyfish" },
       { cn: "五彩斑斓的热带鱼", en: "colorful tropical fish" },
@@ -1055,6 +1304,10 @@ export const INITIAL_BANKS = {
     label: { cn: "传统服装颜色", en: "Traditional Clothing Color" },
     category: "visual",
     options: [
+{
+  "cn": "淡冰蓝色",
+  "en": "pale ice blue"
+},
       { cn: "暗红色", en: "Dark Red" },
       { cn: "朱红色", en: "Vermilion" },
       { cn: "宝蓝色", en: "Sapphire Blue" },
@@ -1159,6 +1412,10 @@ export const INITIAL_BANKS = {
     label: { cn: "装扮材质", en: "Costume Material" },
     category: "item",
     options: [
+{
+  "cn": "粗麻布",
+  "en": "coarse linen"
+},
       { cn: "羊毛", en: "wool" },
       { cn: "毛绒", en: "plush" },
       { cn: "棉质", en: "cotton" },
@@ -1210,6 +1467,10 @@ export const INITIAL_BANKS = {
     label: { cn: "头饰配饰", en: "Head Accessory" },
     category: "item",
     options: [
+{
+  "cn": "小花束",
+  "en": "a small bouquet"
+},
       { cn: "粉色花朵发夹", en: "pink flower hair clip" },
       { cn: "蓝色蝴蝶结", en: "blue butterfly bow" },
       { cn: "红色发带", en: "red hair band" },
@@ -1240,6 +1501,10 @@ export const INITIAL_BANKS = {
     label: { cn: "可爱房间风格", en: "Cute Room Style" },
     category: "location",
     options: [
+{
+  "cn": "温馨游戏房",
+  "en": "a cozy gaming room"
+},
       { cn: "可爱粉色房间，粉彩床和墙壁，原创动物玩偶，妖精灯光，可爱海报，毛绒地毯", en: "Cute pink room, pastel pink bed and walls, original cute animal plushies, fairy lights, cute posters, fluffy rug" },
       { cn: "简约白色房间，白色家具，绿植，自然光，木质地板", en: "Minimalist white room, white furniture, plants, natural light, wooden floor" },
       { cn: "复古粉色房间，复古家具，丝绒窗帘，古典装饰，温暖氛围", en: "Vintage pink room, vintage furniture, velvet curtains, classic decor, warm atmosphere" },
@@ -1254,6 +1519,14 @@ export const INITIAL_BANKS = {
     label: { cn: "可爱服装", en: "Cute Outfit" },
     category: "item",
     options: [
+{
+  "cn": "粉色偶像裙",
+  "en": "a pink idol dress"
+},
+{
+  "cn": "黄色针织背心",
+  "en": "a yellow knitted vest"
+},
       { cn: "黑色紧身吊带连衣裙，长度到臀部，无袖，细肩带", en: "Black tight camisole dress, hip-length, sleeveless, thin straps" },
       { cn: "白色蕾丝连衣裙，及膝长度，短袖，优雅设计", en: "White lace dress, knee-length, short sleeves, elegant design" },
       { cn: "粉色学院风制服，百褶裙，领结，长袖衬衫", en: "Pink school uniform, pleated skirt, bow tie, long-sleeved shirt" },
@@ -1283,6 +1556,14 @@ export const INITIAL_BANKS = {
     label: { cn: "饮料产品", en: "Drink Product" },
     category: "item",
     options: [
+{
+  "cn": "冰抹茶拿铁",
+  "en": "an iced matcha latte"
+},
+{
+  "cn": "一瓶玻璃瓶装汽水",
+  "en": "a glass bottle of soda"
+},
       { cn: "芬达软饮料罐", en: "Fanta softdrink can" },
       { cn: "可口可乐罐", en: "Coca-Cola can" },
       { cn: "百事可乐罐", en: "Pepsi cola can" },
@@ -1450,6 +1731,10 @@ export const INITIAL_BANKS = {
     label: { cn: "主要材质", en: "Primary Material" },
     category: "item",
     options: [
+{
+  "cn": "古铜与黄铜",
+  "en": "antique bronze and brass"
+},
       { cn: "木材", en: "Wood" },
       { cn: "金属", en: "Metal" },
       { cn: "皮革", en: "Leather" },
@@ -1476,6 +1761,10 @@ export const INITIAL_BANKS = {
     label: { cn: "人物主体", en: "Character Subject" },
     category: "character",
     options: [
+{
+  "cn": "穿礼服的中年男士",
+  "en": "a middle-aged man in an evening gown"
+},
       { cn: "年轻女性，长发，微笑", en: "Young woman with long hair, smiling" },
       { cn: "成熟男性，短发，严肃表情", en: "Mature man with short hair, serious expression" },
       { cn: "青少年，活泼开朗", en: "Teenager, lively and cheerful" },
@@ -1490,6 +1779,10 @@ export const INITIAL_BANKS = {
     label: { cn: "画面视角", en: "Portrait View" },
     category: "visual",
     options: [
+{
+  "cn": "半身正面",
+  "en": "frontal half-body view"
+},
       { cn: "正面肖像", en: "Front portrait" },
       { cn: "侧面肖像", en: "Side profile portrait" },
       { cn: "半身像", en: "Half-body shot" },
@@ -1504,6 +1797,10 @@ export const INITIAL_BANKS = {
     label: { cn: "线稿风格", en: "Line Art Style" },
     category: "visual",
     options: [
+{
+  "cn": "清晰的黑色墨线",
+  "en": "clean black ink lines"
+},
       { cn: "钢笔墨水风格", en: "Pen and ink style" },
       { cn: "铅笔素描风格", en: "Pencil sketch style" },
       { cn: "炭笔粗犷风格", en: "Charcoal bold style" },
@@ -1654,6 +1951,10 @@ export const INITIAL_BANKS = {
     label: { cn: "拍照效果", en: "Photo Effect" },
     category: "visual",
     options: [
+{
+  "cn": "细腻胶片颗粒",
+  "en": "fine film grain"
+},
       { cn: "机顶闪光灯直闪", en: "On-camera flash firing" },
       { cn: "慢快门导致的运动模糊", en: "Motion blur from slow shutter speed" },
       { cn: "明显的胶片颗粒感", en: "Noticeable film grain" },
@@ -1781,6 +2082,10 @@ export const INITIAL_BANKS = {
     label: { cn: "可爱配饰", en: "Cute Accessory" },
     category: "item",
     options: [
+{
+  "cn": "小围巾",
+  "en": "a small scarf"
+},
       { cn: "针织帽", en: "beanie hats" },
       { cn: "耳机", en: "headphones" },
       { cn: "派对锥形帽", en: "party cone hats" },
@@ -1912,6 +2217,18 @@ export const INITIAL_BANKS = {
     label: { cn: "高端食品主体", en: "Premium Food Subject" },
     category: "item",
     options: [
+{
+  "cn": "奶香海鲜杯面",
+  "en": "creamy seafood cup noodles"
+},
+{
+  "cn": "烤鲭鱼定食",
+  "en": "a grilled mackerel set meal"
+},
+{
+  "cn": "芝士汉堡",
+  "en": "a cheeseburger"
+},
       { cn: "手工巧克力球", en: "handcrafted chocolate truffles" },
       { cn: "新鲜浆果塔", en: "fresh berry tartlets" },
       { cn: "精致马卡龙", en: "delicate macarons" },
@@ -2033,6 +2350,10 @@ export const INITIAL_BANKS = {
     label: { cn: "室内设计风格", en: "Interior Design Style" },
     category: "visual",
     options: [
+{
+  "cn": "古典画廊风格",
+  "en": "classical gallery style"
+},
       { cn: "现代轻奢风格", en: "Modern Light Luxury Style" },
       { cn: "北欧简约风格", en: "Nordic Minimalist Style" },
       { cn: "工业风格", en: "Industrial Style" },
@@ -2052,6 +2373,10 @@ export const INITIAL_BANKS = {
     label: { cn: "家具组合", en: "Furniture Set" },
     category: "item",
     options: [
+{
+  "cn": "沙发、茶几和落地灯",
+  "en": "a sofa, coffee table and floor lamp"
+},
       { cn: "沙发、地毯、茶几、电视", en: "Sofa, rug, coffee table, TV" },
       { cn: "双人床、床头柜、台灯、衣柜", en: "Double bed, nightstand, lamp, wardrobe" },
       { cn: "餐桌、餐椅、吊灯、餐具柜", en: "Dining table, chairs, pendant light, sideboard" },
@@ -2084,6 +2409,14 @@ export const INITIAL_BANKS = {
     label: { cn: "墙面材质", en: "Wall Material" },
     category: "visual",
     options: [
+{
+  "cn": "风化混凝土",
+  "en": "weathered concrete"
+},
+{
+  "cn": "暖灰色混凝土墙",
+  "en": "a warm gray concrete wall"
+},
       { cn: "白色乳胶漆墙面", en: "White latex paint wall" },
       { cn: "暖白色墙面与装饰画", en: "Warm white walls with decorative art" },
       { cn: "浅灰色艺术涂料", en: "Light gray artistic paint" },
@@ -2102,6 +2435,10 @@ export const INITIAL_BANKS = {
     label: { cn: "地板材质", en: "Floor Material" },
     category: "visual",
     options: [
+{
+  "cn": "浅色木地板",
+  "en": "pale wood flooring"
+},
       { cn: "浅灰色大理石地砖", en: "Light gray marble tile" },
       { cn: "浅灰色岩板地面", en: "Light gray sintered stone floor" },
       { cn: "暖色实木复合地板", en: "Warm engineered wood flooring" },
@@ -2120,6 +2457,10 @@ export const INITIAL_BANKS = {
     label: { cn: "室内光线效果", en: "Interior Lighting" },
     category: "visual",
     options: [
+{
+  "cn": "温暖的自然窗光",
+  "en": "warm natural window light"
+},
       { cn: "自然光线", en: "Natural lighting" },
       { cn: "暖色调柔和灯光", en: "Warm soft lighting" },
       { cn: "冷色调明亮灯光", en: "Cool bright lighting" },
@@ -2304,6 +2645,14 @@ export const INITIAL_BANKS = {
     label: { cn: "自然环境类型", en: "Natural Environment Type" },
     category: "location",
     options: [
+{
+  "cn": "雾气弥漫的荒原",
+  "en": "a misty wasteland"
+},
+{
+  "cn": "雾气弥漫的群山",
+  "en": "misty mountains"
+},
       { cn: "古代雨林（Ancient Rainforest）", en: "Ancient Rainforest" },
       { cn: "雪山峡谷（Snow Mountain Canyon）", en: "Snow Mountain Canyon" },
       { cn: "沙漠绿洲（Desert Oasis）", en: "Desert Oasis" },
@@ -2367,6 +2716,14 @@ export const INITIAL_BANKS = {
     label: { cn: "动物角色类型", en: "Animal Character Type" },
     category: "character",
     options: [
+{
+  "cn": "小熊",
+  "en": "a little bear"
+},
+{
+  "cn": "比熊犬",
+  "en": "a Bichon Frise"
+},
       { cn: "小兔子", en: "Little Bunny" },
       { cn: "小熊", en: "Little Bear" },
       { cn: "小猫", en: "Little Kitten" },
@@ -2383,6 +2740,10 @@ export const INITIAL_BANKS = {
     label: { cn: "毛色/主色调", en: "Fur Color / Main Color" },
     category: "character",
     options: [
+{
+  "cn": "暖焦糖棕色",
+  "en": "warm caramel brown"
+},
       { cn: "柔和温暖的粉彩黄色", en: "Soft warm pastel yellow" },
       { cn: "纯白色", en: "Pure white" },
       { cn: "浅棕色", en: "Light brown" },
@@ -2413,6 +2774,10 @@ export const INITIAL_BANKS = {
     label: { cn: "服装配饰", en: "Accessories" },
     category: "item",
     options: [
+{
+  "cn": "念珠与布袋",
+  "en": "prayer beads and a cloth pouch"
+},
       { cn: "小红橙色探险家围巾和棕色小挎包", en: "Small red-orange adventurer scarf and tiny brown satchel" },
       { cn: "蓝色小领结", en: "Small blue bow tie" },
       { cn: "红色小领巾", en: "Small red neckerchief" },
@@ -2471,6 +2836,30 @@ export const INITIAL_BANKS = {
     label: { cn: "场景地点", en: "Location" },
     category: "location",
     options: [
+{
+  "cn": "大学校园",
+  "en": "a university campus"
+},
+{
+  "cn": "未来公寓",
+  "en": "a futuristic apartment"
+},
+{
+  "cn": "古老城堡",
+  "en": "an ancient castle"
+},
+{
+  "cn": "日式庭院",
+  "en": "a Japanese courtyard"
+},
+{
+  "cn": "日本神社祭典",
+  "en": "a Japanese shrine festival"
+},
+{
+  "cn": "安静的城市街角",
+  "en": "a quiet city corner"
+},
       { cn: "古日本寺庙", en: "ancient Japanese temple" },
       { cn: "城堡", en: "castle" },
       { cn: "宫殿", en: "palace" },
@@ -2542,6 +2931,10 @@ export const INITIAL_BANKS = {
     label: { cn: "景观地点", en: "Landscape Location" },
     category: "location",
     options: [
+{
+  "cn": "高山湖泊",
+  "en": "an alpine lake"
+},
       { cn: "特兰西瓦尼亚葡萄园", en: "Transylvania vineyard" },
       { cn: "托斯卡纳向日葵田", en: "Tuscan sunflower field" },
       { cn: "京都竹林", en: "Kyoto bamboo forest" },
@@ -2591,6 +2984,10 @@ export const INITIAL_BANKS = {
     label: { cn: "细节程度", en: "Detail Level" },
     category: "visual",
     options: [
+{
+  "cn": "细节丰富",
+  "en": "rich in details"
+},
       { cn: "复杂细节", en: "intricate details" },
       { cn: "超精细细节", en: "ultra-fine details" },
       { cn: "微观细节", en: "microscopic details" },
@@ -2845,6 +3242,10 @@ export const INITIAL_BANKS = {
     label: { cn: "主题产品", en: "Subject Product" },
     category: "item",
     options: [
+{
+  "cn": "香水瓶",
+  "en": "a perfume bottle"
+},
       { cn: "草莓苏打水", en: "Strawberry Soda" },
       { cn: "榴莲冰淇淋", en: "Durian Ice Cream" },
       { cn: "西柚香水", en: "Grapefruit Perfume" },
@@ -2863,6 +3264,10 @@ export const INITIAL_BANKS = {
     label: { cn: "苹果风产品", en: "Apple Style Product" },
     category: "item",
     options: [
+{
+  "cn": "无线耳机",
+  "en": "wireless earbuds"
+},
       { cn: "3.5寸软盘", en: "3.5-inch Floppy Disk" },
       { cn: "磁带", en: "Cassette Tape" },
       { cn: "复古打字机", en: "Retro Typewriter" },
@@ -3034,6 +3439,10 @@ export const INITIAL_BANKS = {
     label: { cn: "身后主标题字", en: "Hero Type Word" },
     category: "other",
     options: [
+{
+  "cn": "纵有疾风起",
+  "en": "纵有疾风起"
+},
       { cn: "just", en: "just" },
       { cn: "RUN", en: "RUN" },
       { cn: "AIR", en: "AIR" },
@@ -3138,6 +3547,18 @@ export const INITIAL_BANKS = {
     label: { cn: "底部广告标语", en: "Campaign Tagline" },
     category: "other",
     options: [
+{
+  "cn": "BOSTON, A CITY OF RIVER, MEMORY, AND INVENTION",
+  "en": "BOSTON, A CITY OF RIVER, MEMORY, AND INVENTION"
+},
+{
+  "cn": "凌晨两点还在排队的那家",
+  "en": "the one with a queue even at 2 AM"
+},
+{
+  "cn": "AI PRESENTATION PLATFORM",
+  "en": "AI PRESENTATION PLATFORM"
+},
       {
         cn: "Walk into your next chapter.",
         en: "Walk into your next chapter."
@@ -3216,6 +3637,10 @@ export const INITIAL_BANKS = {
     label: { cn: "镜子自拍穿搭与配饰", en: "Mirror Outfit & Accessories" },
     category: "character",
     options: [
+{
+  "cn": "随意的灰色居家服",
+  "en": "casual gray loungewear"
+},
       {
         cn: "穿着全套黑色的休闲装，斜挎着一个包，头上戴着太阳镜",
         en: "wearing an all-black relaxed casual outfit with a crossbody bag and sunglasses perched on her head"
@@ -3570,6 +3995,10 @@ export const INITIAL_BANKS = {
     label: { cn: "输出比例", en: "Aspect Ratio" },
     category: "visual",
     options: [
+{
+  "cn": "16:9",
+  "en": "16:9"
+},
       { cn: "3:4", en: "3:4" },
       { cn: "4:5", en: "4:5" },
       { cn: "9:16", en: "9:16" },
@@ -3583,6 +4012,46 @@ export const INITIAL_BANKS = {
     label: { cn: "主文字", en: "Main Text" },
     category: "other",
     options: [
+{
+  "cn": "今天也试试新方法吧。",
+  "en": "Let us try something new today."
+},
+{
+  "cn": "文字让想象发生。",
+  "en": "Words make imagination happen."
+},
+{
+  "cn": "天空出现未知信号",
+  "en": "Unknown signal in the sky"
+},
+{
+  "cn": "现烤华夫饼",
+  "en": "Freshly Baked Waffles"
+},
+{
+  "cn": "赤壁之战",
+  "en": "Battle of Red Cliffs"
+},
+{
+  "cn": "东方美学",
+  "en": "东方美学"
+},
+{
+  "cn": "家庭厨房笔记",
+  "en": "Family Kitchen Notes"
+},
+{
+  "cn": "月曜日の奇跡",
+  "en": "月曜日の奇跡"
+},
+{
+  "cn": "周末旅行计划",
+  "en": "Weekend travel plan"
+},
+{
+  "cn": "仙踪长卷",
+  "en": "仙踪长卷"
+},
       { cn: "根据原图内容生成2–6字的简约短语", en: "Generate a 2–6 character spare phrase from the photo" },
       { cn: "窗边", en: "Windowside" },
       { cn: "暮色", en: "Dusk" },
@@ -3597,6 +4066,18 @@ export const INITIAL_BANKS = {
     label: { cn: "辅助文字", en: "Supporting Text" },
     category: "other",
     options: [
+{
+  "cn": "原来还能这样！",
+  "en": "I never thought of that!"
+},
+{
+  "cn": "咖啡套餐 38元",
+  "en": "Coffee Set 38 CNY"
+},
+{
+  "cn": "六个故事，六种世界",
+  "en": "Six stories, six worlds"
+},
       { cn: "根据画面生成一句克制、具体的记忆描述，也可以省略", en: "A restrained, specific memory line from the picture, or omit" },
       { cn: "蓝色落进室内", en: "Blue falls indoors" },
       { cn: "光线停在桌面上", en: "Light rests on the table" },
@@ -3690,6 +4171,10 @@ export const INITIAL_BANKS = {
     label: { cn: "抽象编号", en: "Serial Code" },
     category: "other",
     options: [
+{
+  "cn": "COAST 77",
+  "en": "COAST 77"
+},
       { cn: "NO. 02", en: "NO. 02" },
       { cn: "NO. 01", en: "NO. 01" },
       { cn: "NO. 03", en: "NO. 03" },
@@ -3752,6 +4237,1144 @@ export const INITIAL_BANKS = {
       { cn: "日本现代主义海报", en: "Japanese modernist poster" },
       { cn: "光学折射与叠印", en: "Optical refraction and overprint" },
       { cn: "极简单色加强调色", en: "Minimal monochrome plus one accent" }
+    ]
+  },
+  "fruit_cut": {
+    "label": {
+      "cn": "水果切法",
+      "en": "Fruit Cut"
+    },
+    "category": "item",
+    "options": [
+      {
+        "cn": "对半切开的果实",
+        "en": "a halved fruit"
+      },
+      {
+        "cn": "一片横切片",
+        "en": "a cross-sectional slice"
+      },
+      {
+        "cn": "一块楔形果瓣",
+        "en": "a fruit wedge"
+      },
+      {
+        "cn": "数块果肉丁",
+        "en": "diced fruit"
+      },
+      {
+        "cn": "一条果皮",
+        "en": "a strip of peel"
+      }
+    ]
+  },
+  "enamel_metal": {
+    "label": {
+      "cn": "珐琅金属边",
+      "en": "Enamel Metal Trim"
+    },
+    "category": "visual",
+    "options": [
+      {
+        "cn": "抛光金色",
+        "en": "polished gold"
+      },
+      {
+        "cn": "拉丝银色",
+        "en": "brushed silver"
+      },
+      {
+        "cn": "温暖黄铜色",
+        "en": "warm brass"
+      },
+      {
+        "cn": "玫瑰金色",
+        "en": "rose gold"
+      },
+      {
+        "cn": "古铜色",
+        "en": "antique bronze"
+      }
+    ]
+  },
+  "badge_backdrop": {
+    "label": {
+      "cn": "徽章衬底",
+      "en": "Badge Backdrop"
+    },
+    "category": "visual",
+    "options": [
+      {
+        "cn": "深海军蓝粗亚麻布",
+        "en": "dark navy coarse linen"
+      },
+      {
+        "cn": "米白棉布",
+        "en": "ivory cotton"
+      },
+      {
+        "cn": "炭灰羊毛毡",
+        "en": "charcoal wool felt"
+      },
+      {
+        "cn": "深绿帆布",
+        "en": "forest-green canvas"
+      },
+      {
+        "cn": "浅棕牛皮纸",
+        "en": "light brown kraft paper"
+      }
+    ]
+  },
+  "future_city_motif": {
+    "label": {
+      "cn": "未来城市主景",
+      "en": "Future City Motif"
+    },
+    "category": "location",
+    "options": [
+      {
+        "cn": "环形建筑与蜿蜒高架步道",
+        "en": "ring-shaped buildings and winding elevated paths"
+      },
+      {
+        "cn": "层叠空中花园与悬浮阶梯",
+        "en": "layered sky gardens and floating stairs"
+      },
+      {
+        "cn": "巨型拱门与曲线街道",
+        "en": "monumental arches and curved streets"
+      },
+      {
+        "cn": "海边白色塔群与空中桥梁",
+        "en": "white coastal towers and aerial bridges"
+      },
+      {
+        "cn": "沙漠穹顶与螺旋道路",
+        "en": "desert domes and spiral roads"
+      }
+    ]
+  },
+  "poster_muted_palette": {
+    "label": {
+      "cn": "编辑海报配色",
+      "en": "Editorial Poster Palette"
+    },
+    "category": "visual",
+    "options": [
+      {
+        "cn": "奶油白、鼠尾草绿与灰蓝",
+        "en": "cream, sage green and dusty blue"
+      },
+      {
+        "cn": "沙色、陶土红与淡青",
+        "en": "sand, terracotta and pale cyan"
+      },
+      {
+        "cn": "浅粉、酒红与暖灰",
+        "en": "blush, burgundy and warm gray"
+      },
+      {
+        "cn": "杏黄、橄榄绿与象牙白",
+        "en": "apricot, olive and ivory"
+      },
+      {
+        "cn": "雾紫、藏蓝与米白",
+        "en": "misty lilac, navy and off-white"
+      }
+    ]
+  },
+  "citrus_campaign_fruit": {
+    "label": {
+      "cn": "柑橘广告主角",
+      "en": "Campaign Citrus"
+    },
+    "category": "item",
+    "options": [
+      {
+        "cn": "柠檬",
+        "en": "lemon"
+      },
+      {
+        "cn": "青柠",
+        "en": "lime"
+      },
+      {
+        "cn": "橙子",
+        "en": "orange"
+      },
+      {
+        "cn": "血橙",
+        "en": "blood orange"
+      },
+      {
+        "cn": "葡萄柚",
+        "en": "grapefruit"
+      }
+    ]
+  },
+  "fictional_drink_brand": {
+    "label": {
+      "cn": "虚构饮料品牌",
+      "en": "Fictional Drink Brand"
+    },
+    "category": "other",
+    "options": [
+{
+  "cn": "夏柑SODA",
+  "en": "Summer Citrus SODA"
+},
+      {
+        "cn": "LIMORA",
+        "en": "LIMORA"
+      },
+      {
+        "cn": "ZESTIVA",
+        "en": "ZESTIVA"
+      },
+      {
+        "cn": "CITRILO",
+        "en": "CITRILO"
+      },
+      {
+        "cn": "SUNORA",
+        "en": "SUNORA"
+      },
+      {
+        "cn": "FIZZELLE",
+        "en": "FIZZELLE"
+      }
+    ]
+  },
+  "travel_country": {
+    "label": {
+      "cn": "旅行国家",
+      "en": "Travel Country"
+    },
+    "category": "location",
+    "options": [
+      {
+        "cn": "意大利",
+        "en": "Italy"
+      },
+      {
+        "cn": "日本",
+        "en": "Japan"
+      },
+      {
+        "cn": "法国",
+        "en": "France"
+      },
+      {
+        "cn": "希腊",
+        "en": "Greece"
+      },
+      {
+        "cn": "中国",
+        "en": "China"
+      }
+    ]
+  },
+  "glass_frame_shape": {
+    "label": {
+      "cn": "玻璃展框形状",
+      "en": "Glass Frame Shape"
+    },
+    "category": "item",
+    "options": [
+      {
+        "cn": "拱形玻璃展框",
+        "en": "arched glass display"
+      },
+      {
+        "cn": "圆角矩形水晶展框",
+        "en": "rounded rectangular crystal frame"
+      },
+      {
+        "cn": "圆形玻璃展框",
+        "en": "circular glass frame"
+      },
+      {
+        "cn": "尖拱玻璃展框",
+        "en": "pointed-arch glass display"
+      },
+      {
+        "cn": "阶梯轮廓水晶展框",
+        "en": "stepped crystal frame"
+      }
+    ]
+  },
+  "astronaut_break": {
+    "label": {
+      "cn": "宇航员休息动作",
+      "en": "Astronaut Break"
+    },
+    "category": "action",
+    "options": [
+      {
+        "cn": "手捧冒着热气的小杯子",
+        "en": "holding a small steaming mug"
+      },
+      {
+        "cn": "翻阅一本小小的航行日志",
+        "en": "reading a small flight journal"
+      },
+      {
+        "cn": "用铅笔绘制地球速写",
+        "en": "sketching Earth with a pencil"
+      },
+      {
+        "cn": "双手轻放膝上仰望地球",
+        "en": "resting hands on knees and gazing at Earth"
+      },
+      {
+        "cn": "怀抱一束小花",
+        "en": "holding a small bouquet"
+      }
+    ]
+  },
+  "apparel_ink_palette": {
+    "label": {
+      "cn": "服饰丝印配色",
+      "en": "Apparel Ink Palette"
+    },
+    "category": "visual",
+    "options": [
+      {
+        "cn": "深海军蓝底，浅蓝与白色油墨",
+        "en": "navy fabric with pale blue and white ink"
+      },
+      {
+        "cn": "黑色底，银灰与白色油墨",
+        "en": "black fabric with silver gray and white ink"
+      },
+      {
+        "cn": "墨绿底，米白与浅绿油墨",
+        "en": "forest-green fabric with ivory and pale green ink"
+      },
+      {
+        "cn": "酒红底，浅粉与奶油色油墨",
+        "en": "burgundy fabric with pale pink and cream ink"
+      },
+      {
+        "cn": "炭灰底，浅黄与白色油墨",
+        "en": "charcoal fabric with pale yellow and white ink"
+      }
+    ]
+  },
+  "perfume_floral_set": {
+    "label": {
+      "cn": "香水花材搭配",
+      "en": "Perfume Floral Set"
+    },
+    "category": "item",
+    "options": [
+{
+  "cn": "白色花朵与绿叶",
+  "en": "white flowers and green leaves"
+},
+      {
+        "cn": "薄荷绿玫瑰与浅绿叶片",
+        "en": "mint-green roses and pale green leaves"
+      },
+      {
+        "cn": "白玫瑰与桉树叶",
+        "en": "white roses and eucalyptus"
+      },
+      {
+        "cn": "浅粉牡丹与细蕨叶",
+        "en": "blush peonies and fine fern leaves"
+      },
+      {
+        "cn": "淡紫兰花与银叶植物",
+        "en": "pale lavender orchids and silver foliage"
+      },
+      {
+        "cn": "奶油色马蹄莲与鼠尾草",
+        "en": "cream calla lilies and sage"
+      }
+    ]
+  },
+  "summer_cup_fruit": {
+    "label": {
+      "cn": "冰饮果肉",
+      "en": "Iced Drink Fruit"
+    },
+    "category": "item",
+    "options": [
+      {
+        "cn": "红色草莓果肉",
+        "en": "red strawberry pieces"
+      },
+      {
+        "cn": "金黄芒果果肉",
+        "en": "golden mango pieces"
+      },
+      {
+        "cn": "鲜绿猕猴桃果肉",
+        "en": "bright green kiwi pieces"
+      },
+      {
+        "cn": "橙色蜜桃果肉",
+        "en": "orange peach pieces"
+      },
+      {
+        "cn": "红色西瓜果肉",
+        "en": "red watermelon pieces"
+      }
+    ]
+  },
+  "eye_color": {
+    "label": {
+      "cn": "瞳孔颜色",
+      "en": "Eye Color"
+    },
+    "category": "character",
+    "options": [
+      {
+        "cn": "绿色",
+        "en": "green"
+      },
+      {
+        "cn": "琥珀色",
+        "en": "amber"
+      },
+      {
+        "cn": "深棕色",
+        "en": "dark brown"
+      },
+      {
+        "cn": "灰蓝色",
+        "en": "gray-blue"
+      },
+      {
+        "cn": "紫色",
+        "en": "violet"
+      },
+      {
+        "cn": "紫色",
+        "en": "purple"
+      }
+    ]
+  },
+  "fantasy_weapon": {
+    "label": {
+      "cn": "奇幻兵器",
+      "en": "Fantasy Weapon"
+    },
+    "category": "item",
+    "options": [
+      {
+        "cn": "中世纪长剑",
+        "en": "medieval sword"
+      },
+      {
+        "cn": "符文长剑",
+        "en": "runic longsword"
+      },
+      {
+        "cn": "银色战斧",
+        "en": "silver battle axe"
+      },
+      {
+        "cn": "寒铁长矛",
+        "en": "cold-iron spear"
+      },
+      {
+        "cn": "双手巨剑",
+        "en": "two-handed greatsword"
+      }
+    ]
+  },
+  "paper_cut_finish": {
+    "label": {
+      "cn": "剪纸纸面材质",
+      "en": "Paper-Cut Finish"
+    },
+    "category": "visual",
+    "options": [
+      {
+        "cn": "金属箔或光泽纸",
+        "en": "metallic foil or glossy paper"
+      },
+      {
+        "cn": "哑光金色艺术纸",
+        "en": "matte gold art paper"
+      },
+      {
+        "cn": "银色珠光卡纸",
+        "en": "silver pearlescent card"
+      },
+      {
+        "cn": "暖白纹理纸",
+        "en": "warm white textured paper"
+      },
+      {
+        "cn": "铜色压纹纸",
+        "en": "copper embossed paper"
+      }
+    ]
+  },
+  "vintage_car": {
+    "label": {
+      "cn": "复古车辆",
+      "en": "Vintage Car"
+    },
+    "category": "item",
+    "options": [
+      {
+        "cn": "经典1960年代白色汽车",
+        "en": "classic 1960s white car"
+      },
+      {
+        "cn": "奶油色复古敞篷车",
+        "en": "cream vintage convertible"
+      },
+      {
+        "cn": "红色小型旅行车",
+        "en": "red compact touring car"
+      },
+      {
+        "cn": "浅蓝经典双门轿车",
+        "en": "pale blue classic coupe"
+      },
+      {
+        "cn": "黄色复古小巴",
+        "en": "yellow vintage minibus"
+      }
+    ]
+  },
+  "note_pen": {
+    "label": {
+      "cn": "笔记书写工具",
+      "en": "Note-Taking Pen"
+    },
+    "category": "item",
+    "options": [
+      {
+        "cn": "黑色圆珠笔",
+        "en": "black ballpoint pen"
+      },
+      {
+        "cn": "蓝色圆珠笔",
+        "en": "blue ballpoint pen"
+      },
+      {
+        "cn": "黑色钢笔",
+        "en": "black fountain pen"
+      },
+      {
+        "cn": "深棕色细头笔",
+        "en": "dark brown fineliner"
+      },
+      {
+        "cn": "石墨铅笔",
+        "en": "graphite pencil"
+      }
+    ]
+  },
+  "cosmic_creature": {
+    "label": {
+      "cn": "星云巨兽",
+      "en": "Cosmic Creature"
+    },
+    "category": "character",
+    "options": [
+      {
+        "cn": "锦鲤",
+        "en": "koi"
+      },
+      {
+        "cn": "鲸鱼",
+        "en": "whale"
+      },
+      {
+        "cn": "蝠鲼",
+        "en": "manta ray"
+      },
+      {
+        "cn": "海龟",
+        "en": "sea turtle"
+      },
+      {
+        "cn": "金鱼",
+        "en": "goldfish"
+      }
+    ]
+  },
+  "constellation_theme": {
+    "label": {
+      "cn": "星座主题",
+      "en": "Constellation Theme"
+    },
+    "category": "other",
+    "options": [
+      {
+        "cn": "射手座",
+        "en": "Sagittarius"
+      },
+      {
+        "cn": "白羊座",
+        "en": "Aries"
+      },
+      {
+        "cn": "金牛座",
+        "en": "Taurus"
+      },
+      {
+        "cn": "狮子座",
+        "en": "Leo"
+      },
+      {
+        "cn": "天蝎座",
+        "en": "Scorpio"
+      },
+      {
+        "cn": "双鱼座",
+        "en": "Pisces"
+      }
+    ]
+  },
+  "classical_ensemble": {
+    "label": {
+      "cn": "古典人物群像",
+      "en": "Classical Ensemble"
+    },
+    "category": "character",
+    "options": [
+      {
+        "cn": "八仙",
+        "en": "the Eight Immortals"
+      },
+      {
+        "cn": "竹林七贤",
+        "en": "the Seven Sages of the Bamboo Grove"
+      },
+      {
+        "cn": "唐宋八大家",
+        "en": "the Eight Great Prose Masters of the Tang and Song"
+      },
+      {
+        "cn": "四大天王",
+        "en": "the Four Heavenly Kings"
+      },
+      {
+        "cn": "三国五虎将",
+        "en": "the Five Tiger Generals of the Three Kingdoms"
+      }
+    ]
+  },
+  "illustration_subject": {
+    "label": {
+      "cn": "插画主题",
+      "en": "Illustration Subject"
+    },
+    "category": "other",
+    "options": [
+      {
+        "cn": "散步的猫咪",
+        "en": "a strolling cat"
+      },
+      {
+        "cn": "忙碌的咖啡师",
+        "en": "a busy barista"
+      },
+      {
+        "cn": "带着相机的旅行者",
+        "en": "a traveler carrying a camera"
+      },
+      {
+        "cn": "修理星星的机器人",
+        "en": "a robot repairing stars"
+      },
+      {
+        "cn": "骑自行车的狐狸",
+        "en": "a fox riding a bicycle"
+      }
+    ]
+  },
+  "artwork_signature": {
+    "label": {
+      "cn": "画面署名",
+      "en": "Artwork Signature"
+    },
+    "category": "other",
+    "options": [
+      {
+        "cn": "STUDIO",
+        "en": "STUDIO"
+      },
+      {
+        "cn": "FIELD NOTES",
+        "en": "FIELD NOTES"
+      },
+      {
+        "cn": "ART LAB",
+        "en": "ART LAB"
+      },
+      {
+        "cn": "MY COLLECTION",
+        "en": "MY COLLECTION"
+      },
+      {
+        "cn": "SKETCHBOOK",
+        "en": "SKETCHBOOK"
+      },
+      {
+        "cn": "@LIYUE",
+        "en": "@LIYUE"
+      },
+      {
+        "cn": "voxcat",
+        "en": "voxcat"
+      }
+    ]
+  },
+  "recipe_page_layout": {
+    "label": {
+      "cn": "食谱版式",
+      "en": "Recipe Layout"
+    },
+    "category": "visual",
+    "options": [
+      {
+        "cn": "杂志双页跨页",
+        "en": "a magazine double-page spread"
+      },
+      {
+        "cn": "单页步骤卡",
+        "en": "a single-page step card"
+      },
+      {
+        "cn": "上下分栏食谱页",
+        "en": "a recipe page with top and bottom sections"
+      },
+      {
+        "cn": "三栏烹饪指南",
+        "en": "a three-column cooking guide"
+      },
+      {
+        "cn": "手账式食谱页",
+        "en": "a journal-style recipe page"
+      }
+    ]
+  },
+  "snack_subject": {
+    "label": {
+      "cn": "零食主体",
+      "en": "Snack Subject"
+    },
+    "category": "item",
+    "options": [
+      {
+        "cn": "夹心威化饼干",
+        "en": "a filled wafer biscuit"
+      },
+      {
+        "cn": "巧克力棒",
+        "en": "a chocolate bar"
+      },
+      {
+        "cn": "坚果能量棒",
+        "en": "a nut energy bar"
+      },
+      {
+        "cn": "夹心曲奇",
+        "en": "a sandwich cookie"
+      },
+      {
+        "cn": "爆米花",
+        "en": "popcorn"
+      }
+    ]
+  },
+  "flower_field_species": {
+    "label": {
+      "cn": "花田品种",
+      "en": "Flower Field Species"
+    },
+    "category": "location",
+    "options": [
+      {
+        "cn": "薰衣草",
+        "en": "lavender"
+      },
+      {
+        "cn": "雏菊",
+        "en": "daisy"
+      },
+      {
+        "cn": "波斯菊",
+        "en": "cosmos"
+      },
+      {
+        "cn": "油菜花",
+        "en": "rapeseed blossom"
+      },
+      {
+        "cn": "向日葵",
+        "en": "sunflower"
+      }
+    ]
+  },
+  "rpg_item_theme": {
+    "label": {
+      "cn": "奇幻道具主题",
+      "en": "Fantasy Item Theme"
+    },
+    "category": "other",
+    "options": [
+      {
+        "cn": "经典中世纪奇幻",
+        "en": "classic medieval fantasy"
+      },
+      {
+        "cn": "森林精灵王国",
+        "en": "a woodland elven kingdom"
+      },
+      {
+        "cn": "冰霜魔法王国",
+        "en": "a frost-magic kingdom"
+      },
+      {
+        "cn": "沙漠古代文明",
+        "en": "an ancient desert civilization"
+      },
+      {
+        "cn": "海洋冒险王国",
+        "en": "an ocean-adventure kingdom"
+      }
+    ]
+  },
+  "mecha_heavy_weapon": {
+    "label": {
+      "cn": "机甲肩载装备",
+      "en": "Mecha Shoulder Equipment"
+    },
+    "category": "item",
+    "options": [
+      {
+        "cn": "巨型轨道炮",
+        "en": "massive rail cannon"
+      },
+      {
+        "cn": "重型电磁炮",
+        "en": "heavy electromagnetic cannon"
+      },
+      {
+        "cn": "长管等离子炮",
+        "en": "long-barreled plasma cannon"
+      },
+      {
+        "cn": "肩载激光炮",
+        "en": "shoulder-mounted laser cannon"
+      },
+      {
+        "cn": "大型侦察传感器",
+        "en": "large reconnaissance sensor"
+      }
+    ]
+  },
+  "portrait_mood": {
+    "label": {
+      "cn": "人像情绪",
+      "en": "Portrait Mood"
+    },
+    "category": "character",
+    "options": [
+      {
+        "cn": "安静从容",
+        "en": "quiet and composed"
+      },
+      {
+        "cn": "温暖微笑",
+        "en": "a warm smile"
+      },
+      {
+        "cn": "自信坚定",
+        "en": "confident and determined"
+      },
+      {
+        "cn": "若有所思",
+        "en": "thoughtful"
+      },
+      {
+        "cn": "轻松俏皮",
+        "en": "relaxed and playful"
+      }
+    ]
+  },
+  "editorial_palette": {
+    "label": {
+      "cn": "编辑配色",
+      "en": "Editorial Palette"
+    },
+    "category": "visual",
+    "options": [
+      {
+        "cn": "钴蓝与琥珀金",
+        "en": "cobalt blue and amber gold"
+      },
+      {
+        "cn": "奶油白与鼠尾草绿",
+        "en": "cream and sage green"
+      },
+      {
+        "cn": "酒红与暖米色",
+        "en": "burgundy and warm beige"
+      },
+      {
+        "cn": "黑色与朱红",
+        "en": "black and vermilion"
+      },
+      {
+        "cn": "淡粉与薰衣草紫",
+        "en": "blush pink and lavender"
+      },
+      {
+        "cn": "银灰与电光蓝",
+        "en": "silver gray and electric blue"
+      }
+    ]
+  },
+  "studio_brand": {
+    "label": {
+      "cn": "虚构品牌名称",
+      "en": "Fictional Brand Name"
+    },
+    "category": "other",
+    "options": [
+      {
+        "cn": "AURELIA",
+        "en": "AURELIA"
+      },
+      {
+        "cn": "NOVA STUDIO",
+        "en": "NOVA STUDIO"
+      },
+      {
+        "cn": "LUMEN",
+        "en": "LUMEN"
+      },
+      {
+        "cn": "MORNING CLUB",
+        "en": "MORNING CLUB"
+      },
+      {
+        "cn": "ATELIER N",
+        "en": "ATELIER N"
+      }
+    ]
+  },
+  "poster_headline": {
+    "label": {
+      "cn": "海报标题短句",
+      "en": "Poster Headline"
+    },
+    "category": "other",
+    "options": [
+      {
+        "cn": "新的旅程",
+        "en": "A NEW JOURNEY"
+      },
+      {
+        "cn": "微光时刻",
+        "en": "MOMENTS OF LIGHT"
+      },
+      {
+        "cn": "保持好奇",
+        "en": "STAY CURIOUS"
+      },
+      {
+        "cn": "向阳而生",
+        "en": "GROW TOWARD THE SUN"
+      },
+      {
+        "cn": "日常奇迹",
+        "en": "EVERYDAY MAGIC"
+      }
+    ]
+  },
+  "sprite_action": {
+    "label": {
+      "cn": "精灵动作主题",
+      "en": "Sprite Action"
+    },
+    "category": "action",
+    "options": [
+      {
+        "cn": "待机与招手",
+        "en": "idle and waving"
+      },
+      {
+        "cn": "行走与回头",
+        "en": "walking and looking back"
+      },
+      {
+        "cn": "蓄力与挥击",
+        "en": "charging and striking"
+      },
+      {
+        "cn": "跳跃与落地",
+        "en": "jumping and landing"
+      },
+      {
+        "cn": "庆祝与鞠躬",
+        "en": "celebrating and bowing"
+      }
+    ]
+  },
+  "anime_outfit": {
+    "label": {
+      "cn": "动漫角色服装",
+      "en": "Anime Outfit"
+    },
+    "category": "item",
+    "options": [
+      {
+        "cn": "蓝白学院制服",
+        "en": "a blue-and-white academy uniform"
+      },
+      {
+        "cn": "黑色哥特礼裙",
+        "en": "a black Gothic dress"
+      },
+      {
+        "cn": "红黑街头夹克",
+        "en": "a red-and-black street jacket"
+      },
+      {
+        "cn": "白银轻甲",
+        "en": "white-and-silver light armor"
+      },
+      {
+        "cn": "浅色和服",
+        "en": "a pale kimono"
+      },
+      {
+        "cn": "粉色偶像裙",
+        "en": "a pink idol dress"
+      }
+    ]
+  },
+  "comic_cast": {
+    "label": {
+      "cn": "漫画人物组合",
+      "en": "Comic Cast"
+    },
+    "category": "character",
+    "options": [
+      {
+        "cn": "一对青年朋友",
+        "en": "two young adult friends"
+      },
+      {
+        "cn": "两位咖啡师",
+        "en": "two baristas"
+      },
+      {
+        "cn": "一对成年旅行者",
+        "en": "two adult travelers"
+      },
+      {
+        "cn": "一对音乐人",
+        "en": "two musicians"
+      },
+      {
+        "cn": "两位大学同学",
+        "en": "two university classmates"
+      }
+    ]
+  },
+  "art_paper": {
+    "label": {
+      "cn": "绘画纸张",
+      "en": "Art Paper"
+    },
+    "category": "visual",
+    "options": [
+      {
+        "cn": "暖白水彩纸",
+        "en": "warm white watercolor paper"
+      },
+      {
+        "cn": "浅棕再生纸",
+        "en": "light brown recycled paper"
+      },
+      {
+        "cn": "象牙白棉纸",
+        "en": "ivory cotton paper"
+      },
+      {
+        "cn": "米色素描纸",
+        "en": "beige sketch paper"
+      },
+      {
+        "cn": "灰白粗纹纸",
+        "en": "off-white textured paper"
+      }
+    ]
+  },
+  "product_stage": {
+    "label": {
+      "cn": "产品陈列台",
+      "en": "Product Stage"
+    },
+    "category": "location",
+    "options": [
+      {
+        "cn": "暖米色大理石台",
+        "en": "a warm beige marble plinth"
+      },
+      {
+        "cn": "深色火山岩台",
+        "en": "a dark volcanic stone plinth"
+      },
+      {
+        "cn": "光洁的白色台面",
+        "en": "a polished white tabletop"
+      },
+      {
+        "cn": "原木展示台",
+        "en": "a natural wood display stand"
+      },
+      {
+        "cn": "透明亚克力台",
+        "en": "a clear acrylic plinth"
+      }
+    ]
+  },
+  "botanical_accent": {
+    "label": {
+      "cn": "植物点缀",
+      "en": "Botanical Accent"
+    },
+    "category": "item",
+    "options": [
+      {
+        "cn": "白色小花与绿藤",
+        "en": "small white flowers and green vines"
+      },
+      {
+        "cn": "粉色雏菊",
+        "en": "pink daisies"
+      },
+      {
+        "cn": "向日葵",
+        "en": "sunflowers"
+      },
+      {
+        "cn": "紫色兰花",
+        "en": "purple orchids"
+      },
+      {
+        "cn": "橄榄枝",
+        "en": "olive branches"
+      },
+      {
+        "cn": "樱花",
+        "en": "cherry blossoms"
+      }
     ]
   }
 };
@@ -4075,6 +5698,158 @@ export const INITIAL_DEFAULTS = {
   album_title: { cn: "根据图像核心生成2–5个英文单词", en: "2–5 English words from the image’s core" },
   album_note: { cn: "根据画面生成一句简短英文描述", en: "One short English line from the picture" },
   catalog_code: { cn: "自动生成简洁的虚构编号", en: "Auto-generate a short fictional catalog code" },
-  cover_style: { cn: "70年代现代主义专辑设计", en: "1970s modernist album design" }
+  cover_style: { cn: "70年代现代主义专辑设计", en: "1970s modernist album design" },
+  "fruit_cut": {
+    "cn": "对半切开的果实",
+    "en": "a halved fruit"
+  },
+  "enamel_metal": {
+    "cn": "抛光金色",
+    "en": "polished gold"
+  },
+  "badge_backdrop": {
+    "cn": "深海军蓝粗亚麻布",
+    "en": "dark navy coarse linen"
+  },
+  "future_city_motif": {
+    "cn": "环形建筑与蜿蜒高架步道",
+    "en": "ring-shaped buildings and winding elevated paths"
+  },
+  "poster_muted_palette": {
+    "cn": "奶油白、鼠尾草绿与灰蓝",
+    "en": "cream, sage green and dusty blue"
+  },
+  "citrus_campaign_fruit": {
+    "cn": "柠檬",
+    "en": "lemon"
+  },
+  "fictional_drink_brand": {
+    "cn": "LIMORA",
+    "en": "LIMORA"
+  },
+  "travel_country": {
+    "cn": "意大利",
+    "en": "Italy"
+  },
+  "glass_frame_shape": {
+    "cn": "拱形玻璃展框",
+    "en": "arched glass display"
+  },
+  "astronaut_break": {
+    "cn": "手捧冒着热气的小杯子",
+    "en": "holding a small steaming mug"
+  },
+  "apparel_ink_palette": {
+    "cn": "深海军蓝底，浅蓝与白色油墨",
+    "en": "navy fabric with pale blue and white ink"
+  },
+  "perfume_floral_set": {
+    "cn": "薄荷绿玫瑰与浅绿叶片",
+    "en": "mint-green roses and pale green leaves"
+  },
+  "summer_cup_fruit": {
+    "cn": "红色草莓果肉",
+    "en": "red strawberry pieces"
+  },
+  "eye_color": {
+    "cn": "绿色",
+    "en": "green"
+  },
+  "fantasy_weapon": {
+    "cn": "中世纪长剑",
+    "en": "medieval sword"
+  },
+  "paper_cut_finish": {
+    "cn": "金属箔或光泽纸",
+    "en": "metallic foil or glossy paper"
+  },
+  "vintage_car": {
+    "cn": "经典1960年代白色汽车",
+    "en": "classic 1960s white car"
+  },
+  "note_pen": {
+    "cn": "黑色圆珠笔",
+    "en": "black ballpoint pen"
+  },
+  "cosmic_creature": {
+    "cn": "锦鲤",
+    "en": "koi"
+  },
+  "constellation_theme": {
+    "cn": "射手座",
+    "en": "Sagittarius"
+  },
+  "classical_ensemble": {
+    "cn": "八仙",
+    "en": "the Eight Immortals"
+  },
+  "illustration_subject": {
+    "cn": "散步的猫咪",
+    "en": "a strolling cat"
+  },
+  "artwork_signature": {
+    "cn": "STUDIO",
+    "en": "STUDIO"
+  },
+  "recipe_page_layout": {
+    "cn": "杂志双页跨页",
+    "en": "a magazine double-page spread"
+  },
+  "snack_subject": {
+    "cn": "夹心威化饼干",
+    "en": "a filled wafer biscuit"
+  },
+  "flower_field_species": {
+    "cn": "薰衣草",
+    "en": "lavender"
+  },
+  "rpg_item_theme": {
+    "cn": "经典中世纪奇幻",
+    "en": "classic medieval fantasy"
+  },
+  "mecha_heavy_weapon": {
+    "cn": "巨型轨道炮",
+    "en": "massive rail cannon"
+  },
+  "portrait_mood": {
+    "cn": "安静从容",
+    "en": "quiet and composed"
+  },
+  "editorial_palette": {
+    "cn": "钴蓝与琥珀金",
+    "en": "cobalt blue and amber gold"
+  },
+  "studio_brand": {
+    "cn": "AURELIA",
+    "en": "AURELIA"
+  },
+  "poster_headline": {
+    "cn": "新的旅程",
+    "en": "A NEW JOURNEY"
+  },
+  "sprite_action": {
+    "cn": "待机与招手",
+    "en": "idle and waving"
+  },
+  "anime_outfit": {
+    "cn": "蓝白学院制服",
+    "en": "a blue-and-white academy uniform"
+  },
+  "comic_cast": {
+    "cn": "一对青年朋友",
+    "en": "two young adult friends"
+  },
+  "art_paper": {
+    "cn": "暖白水彩纸",
+    "en": "warm white watercolor paper"
+  },
+  "product_stage": {
+    "cn": "暖米色大理石台",
+    "en": "a warm beige marble plinth"
+  },
+  "botanical_accent": {
+    "cn": "白色小花与绿藤",
+    "en": "small white flowers and green vines"
+  }
 };
 
